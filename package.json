@@ -1,0 +1,15 @@
+{
+  "name": "traffictwin-ai",
+  "version": "1.0.0",
+  "description": "TrafficTwin AI - AI-Powered Digital Twin for Intelligent Traffic Prediction and Optimization for Tamil Nadu Smart Cities",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "python backend/app.py",
+    "build:frontend": "cd frontend && npm run build",
+    "emulators": "npx -y firebase-tools@latest emulators:start --only database,auth",
+    "start": "python run_app.py"
+  },
+  "keywords": ["traffic-prediction", "digital-twin", "lstm", "firebase", "smart-city", "tamil-nadu"],
+  "author": "TrafficTwin AI Team",
+  "license": "MIT"
+}
